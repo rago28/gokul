@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RA.GO</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <section>
+        <header>
+            <div class="logo">
+                <h1>RA.GO</h1>
+            </div>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="nav">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Portfolio</a></li>
+            </ul>
+            <div id="nava">
+                <button class="contact">Contact</button>
+            </div>
+        </header>
+
+
+        <div class="main" id="home">
+            <div class="maintxt">
+                <p class="a">Hello,</p>
+                <p class="b">I'm Gokula Krishna</p>
+                <p class="c">I am Front End Developer.</p>
+            </div>
+            <div>
+                <button class="cv">Download CV</button>
+            </div>
+        </div>
+    </section>
+
+<!------------------------------------------------------------------------------About container------------------------------------------------->
+    <div class="abt" id="about">
+        <div class="about">
+            <div>
+                <img src="bg.jpg">
+            </div>
+            <div class="about_txt">
+                <h2>ABOUT ME</h2>
+                <h3>Front End Developer & Traveller</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Nihil sit quas iusto delectus, nam cumque dolor quae excepturi 
+                doloribus officia alias placeat dolorum corrupti. Aliquid facere 
+                tempore quos a ipsa.Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Nihil sit quas iusto delectus, nam cumque dolor quae excepturi 
+                doloribus officia alias placeat dolorum corrupti. Aliquid facere 
+                tempore quos a ipsa<br><br>placeat dolorum corrupti. Aliquid facere 
+                tempore quos a ipsa.Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Nihil sit quas iusto delectus, nam cumque dolor quae excepturi 
+                doloribus officia alias placeat dolorum corrupti. Aliquid facere 
+                tempore quos a ipsa</p>
+                <button>Know More</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="blog_content" id="blog">
+        <div class="blog_head">
+            <h1>want to know more <span>ABOUT ME?</span></h1>
+        </div>
+        <div class="blogmain">
+            <div class="blogs">
+                <div class="blog_container">
+                    <img src="bg.jpg">
+                    <h1>Blog 1</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, 
+                    quasi voluptatibus fuga deserunt asperiores, veniam blanditiis velit 
+                    eveniet corrupti numquam.</p>
+                </div>
+            </div>
+            <div class="blogs">
+                <div class="blog_container">
+                    <img src="bg.jpg">
+                    <h1>Blog 1</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, 
+                    quasi voluptatibus fuga deserunt asperiores, veniam blanditiis velit 
+                    eveniet corrupti numquam.</p>
+                </div>
+            </div>
+            <div class="blogs">
+                <div class="blog_container">
+                    <img src="bg.jpg">
+                    <h1>Blog 1</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, 
+                    quasi voluptatibus fuga deserunt asperiores, veniam blanditiis velit 
+                    eveniet corrupti numquam.</p>
+                </div>
+            </div>
+            <div class="blogs">
+                <div class="blog_container">
+                    <img src="bg.jpg">
+                    <h1>Blog 1</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, 
+                    quasi voluptatibus fuga deserunt asperiores, veniam blanditiis velit 
+                    eveniet corrupti numquam.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="port" id="portfolio">
+        <div class="porthead">
+            <h1>My Portfolio</h1>
+        </div>
+        <div class="portmobile">
+            <div class="portlist">
+                <div class="projects">
+                    <p>Porject A</p>
+                </div>
+                <div class="projects">
+                    <p>Porject B</p>
+                </div>
+                <div class="projects">
+                    <p>Porject C</p>
+                </div>
+            </div>
+            <div class="portlist">
+                <div class="projects">
+                    <p>Porject A</p>
+                </div>
+                <div class="projects">
+                    <p>Porject B</p>
+                </div>
+                <div class="projects">
+                    <p>Porject C</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="subscribe">
+        <div>
+            <h1>subscribe to get updates.</h1>
+            <div class="sub">
+                <input placeholder="enter your mail address">
+                <button>subscribe</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        
+    </div>
+
+
+
+    <script>
+        function toggleMenu(){
+            var menuToggle = document.querySelector('.toggle');
+            var nav = document.querySelector('.nav');
+            menuToggle.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>
